@@ -1,9 +1,9 @@
 # simple-firebase-email-pass-auth
 
-This repository contains a simple Firebase email and password authentication project built with Vite.js.
+This repository contains a simple Firebase email and password authentication project built with React.js and Vite.js.
 
 ## Overview
-This project aims to provide a straightforward implementation of email and password authentication using Firebase. It leverages the power of Vite.js, a fast and efficient development tool, to create a seamless development experience.
+This project aims to provide a straightforward implementation of email and password authentication using Firebase. It leverages the power of React.js and Vite.js, a fast and efficient development tool, to create a seamless development experience.
 
 ## Status
 Currently, this repository is a work in progress, and we welcome pull requests from the community. Feel free to contribute and help improve this project.
@@ -15,11 +15,11 @@ To get started with the project, follow these steps:
 2. Navigate to the project directory.
 3. Install the dependencies by running the following command:
    ```
-   npm install
+   yarn install
    ```
 4. Start the development server:
    ```
-   npm run dev
+   yarn dev
    ```
 5. Open your browser and visit `http://localhost:3000` to see the application running.
 
