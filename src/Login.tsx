@@ -6,6 +6,17 @@ const LoginPage: React.FC = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        const target = e.target as HTMLFormElement;
+        const emailInput = target.email as HTMLInputElement;
+        const passwordInput = target.password as HTMLInputElement;
+        const email = emailInput.value;
+        const password = passwordInput.value;
+        await login(email, password);
+    };
+
+
     const handleCopyToken = () => {
         if (token) {
             // Check if the Clipboard API is available
